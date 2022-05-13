@@ -308,12 +308,13 @@ section.products .products-title-underline{
 .products-title h2:hover + .products-title-underline {
     width: 150px;
 }
-.middle-menu li{
-    
-    list-style-type: none;   
+.product-menu{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    float: left;
-    margin-left: 40px;
+    align-items: center;
+    width: 54%;
+    margin: auto;
+    padding-top: 41px;
+    font-weight: normal;
 }
