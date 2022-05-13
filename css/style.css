@@ -317,4 +317,18 @@ section.products .products-title-underline{
     margin: auto;
     padding-top: 41px;
     font-weight: normal;
+    padding-bottom: 50px;
+}
+.product-item{
+    float: left;
+    width: 31%;
+    margin-right: 2%;
+}
+.product-item-img img{
+    width: 100%;
+}
+.product-item-info{
+}
+.product-item-info i{
+    display: block;
 }
