@@ -343,9 +343,12 @@ section.products .products-title-underline{
     margin-top: 10px;
 }
 .product-item-img-over{
+    transition: .5s;
+
     top: 0;
+    left: 50%;
     float: left;
-    width: 100%;
+    width: 0%;
     height: 100%;
     
     /* background-color: blue; */
@@ -370,4 +373,12 @@ section.products .products-title-underline{
 .product-item:hover .product-item-img-over {
     visibility: visible;   
     opacity: 1;
+
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.roduct-item-img-over-list{
+    
 }
