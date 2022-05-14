@@ -48,6 +48,41 @@ header{
 .right-top-menu{
     float: right;
 }
+.top_menu_item_sub1{
+    position: relative;
+}
+.dropdown-menu{
+    background-color: white;
+    border: 1px solid var(--pagecolor);
+    
+    /* visibility: hidden; */
+    position: absolute;
+    
+    /* transition: 1s; */
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top_menu_item_sub1:hover .dropdown-menu{
+    visibility: visible;
+    
+    /* width: 300px;
+    height: 200px; */
+
+    top: 40px;
+    left: -2px;
+}
+.dropdown-menu-list{
+    display: table-cell;
+    text-align: left;
+
+}
+.dropdown-menu li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
 .right-top-menu-ciyrcle{
     width: 20px;
     height: 20px;
@@ -80,6 +115,7 @@ header{
     padding: 10px 19px;
     list-style-type: none;
     /* display: block; */
+    /* transition: 0.2s; */
 }
 .top_menu_item a{
     text-decoration: none;
