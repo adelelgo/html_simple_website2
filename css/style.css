@@ -442,8 +442,8 @@ section.products .products-title-underline{
 }
 .product-item-img-over-list{
     list-style-type: none;
-    top: 28%;
-    /* left: 10%; */
+    top: 38%;
+    left: 27%;
     position: absolute;
     margin: auto;
     width: fit-content;
